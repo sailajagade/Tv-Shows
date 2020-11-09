@@ -1,0 +1,184 @@
+.menu-item {
+  /* padding: 0 40px; */
+  /* margin: 5px 10px; */
+  user-select: none;
+  cursor: pointer;
+  border: none;
+}
+.menu-item-wrapper.active {
+  border: 1px blue solid;
+}
+.menu-item.active {
+  border: 1px green solid;
+}
+.scroll-menu-arrow {
+  /* padding: 20px; */
+  cursor: pointer;
+  font-size:30px;
+  
+}
+.textcolor
+{
+ color: white;
+ font-size:20px
+}
+
+.pagination{
+  flex-wrap:wrap
+}
+.detailsCard{  
+flex-wrap:wrap;
+background: #F7F7F7;
+}
+
+.fontStyle
+{
+  font-size: medium;
+ font-family: 'Roboto';
+}
+ 
+.pagination a {
+  font-size: 16px;
+  margin: 4px 4px;
+}
+
+.font-family{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {margin: 0 -5px;}
+
+@media (min-width: 992px){
+.col-lg-3 {
+  /* flex: 0 0 25%; */
+  max-width: 22%;
+}
+}
+.margin
+{
+ margin-left:40px;
+ margin-right:40px;
+padding-bottom:20px
+}
+.marginLeft
+{
+  margin-left:80px;
+ font-size:40px;
+ 
+ background:black
+}
+.color{
+  color:#e50914;
+  font-size: 40px;
+}
+.bg-color
+{
+
+  color:white;
+}
+
+.btn{
+    color: white;
+    font-size: large;
+  
+}
+.btn:hover {
+  background: white;
+}
+.navbar2{
+  /* background:rgb(34, 37, 57); */
+  background: black;
+  display: flex;
+  text-align: center;
+}
+.nav{
+  /* background: rgb(51, 53, 69); */
+  background: black;
+}
+table{
+  overflow: hidden;
+}
+#searchbox,#genre,#rating{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px 4px 4px 4px;
+  box-sizing: border-box;
+  font-size: large;
+}
+#searchbox
+{
+  background-image: url('http://www.clker.com/cliparts/z/1/T/u/9/2/search-icon-hi.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  text-indent: 18px;
+  background-size: 26px;
+  background-position: right;
+}
+#searchbox:focus {
+  background-image:none;
+  text-indent:0px
+  }
+#button{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px 10px 10px 10px;
+  overflow: hidden;
+  background:rgb(94, 138, 255);
+  color: white;
+  font-size: large;
+}
+#searchbox::-webkit-input-placeholder {
+  font-size: 18px;
+  line-height: 3;
+  text-align: center;
+}
+.aa{
+  position: absolute;
+  outline: 0;
+  transition: all .5s;
+  border-radius: 35px;
+  z-index: 1000;
+  border: 0;
+  background: rgba(0,0,0,0.5);
+  min-width: 43px;
+  min-height: 43px;
+  opacity: 1;
+  cursor: pointer;
+}
+#image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width:auto
+  
+}
+#outer-div {
+  width: 100%;
+  text-align: center;
+  background-color: #0666a3
+}
+
+#inner-div {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 3px;
+  background-color: #8ebf42
+}
+
+
+
+
+
+
+
