@@ -14,7 +14,7 @@ function DisplayShowDetails(props) {
     showTab,
     paginate,
     currentPage,
-    postsPerPage,
+    postsPerPage=5,
   } = props;
   let indexOfLastPost = currentPage * postsPerPage;
   let indexOfFirstPost = indexOfLastPost - postsPerPage;
